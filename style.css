@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+    width: auto;
+}
+.parent{
+    height: 80%;
+    width: 80%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.child{
+    height: 40%;
+    width: 40%;
+    background-color: rgb(78, 14, 216);
+    margin: 10px;
+}
+@media screen and (max-width:500px) {
+    .parent{
+        flex-direction: column;
+    }
+    
+}
